@@ -29,9 +29,66 @@ $$$$$$$$$$$$$$$$$$$ CLONING A PROJECT USING HTTPS  $$$$$$$$$$$$$$$$$$$$
 
 				Now you have your project ready and your repo ready. 
 				just we have to attach them together. 
-				
 6. right click on project >> teams >>> share project. 
 7. in configure git repository >> select the repo you want to share with. 
 8. click on finish. 
-				
-				
+
+
+
+#################### PUSHING/Cloning our code to git repo###############################
+
+1. right click on project >> teams >> commit >>> 
+
+2.opened the git staging tab >>> 
+3. add the files in staged area..
+4. add a commit message 
+5. commit and push.
+then its done
+
+** iff when you have configured ssh in your system and in your repo. otherwise you wont be able to push your code to remote. 
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  SSH configuration %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+IN Eclipse 
+	1. go to window >>> preference  >> network connection  >> SSH2 
+	2. go to key management 
+	3. generate RSA KEY.
+	4. copy the public key in the text area.
+	5. click on save private key.
+	6. give a location where files can be saved. 
+	7. files are saved now. 
+
+
+
+In GITHUB 
+	1. go to settings 
+	2. click on ssh and geg keys 
+	3. click on new ssh key. 
+	4. paste the ssh key in key area. 
+	5. key is added in the github account. 
+
+Generate a TOken , which we use to login/ push/pull our git repo.
+
+	1. go to settings in git hub 
+	2. developer settings 
+	3. personal access token. 
+	4. new personal token 
+	5. add any note you want 
+	6. add any expiry date 
+	7. click on repo 
+	8. generate token 
+	9. copy that toekn 
+
+
+Ini Eclipse 
+	1. git repo >> expand >> remotes >> origin >>> right click >> cinfigure push 
+	2. click on change uri. 
+	3. in side your password, paste your genereated token
+	4. click on save.
+	
+
