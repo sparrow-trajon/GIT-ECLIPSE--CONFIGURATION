@@ -1,0 +1,37 @@
+
+
+1. create an account on github if not already registered. 
+2. log in, and create a project in git hub by clicking start project. 
+3. start cereating repository 
+				repo name >> any name you want 
+				public 
+				click on create repository.
+4. your repo is ready to push and pull.
+
+
+
+$$$$$$$$$$$$$$$$$$$ CLONING A PROJECT USING HTTPS  $$$$$$$$$$$$$$$$$$$$				
+
+
+1. got to your repository 
+2. go inside code section 
+3. copy the https uri of repo. 
+			
+			NOW in ECLIPSE 
+
+
+1. click on windows >> show view  >> git >> git repository 			
+2. in git repo >> click on clone a repo
+3. paste copied uri in URI section , then use your credentials >>> next 
+4. go  to your desired location/path. 
+5. click on finish.
+6. create a java project inside eclipse -->>
+
+				Now you have your project ready and your repo ready. 
+				just we have to attach them together. 
+				
+6. right click on project >> teams >>> share project. 
+7. in configure git repository >> select the repo you want to share with. 
+8. click on finish. 
+				
+				
