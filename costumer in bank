@@ -50,7 +50,7 @@ class customer{
 		{ int i,n;
 		cout<<"Enter number of customer"<<endl;
 		      cin>>n;
-		      customer care[n];
+		      customer c[n];
 		   for(i=1;i<=n;i++)
 		   {
 			
