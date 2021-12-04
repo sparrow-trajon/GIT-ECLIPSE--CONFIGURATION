@@ -50,9 +50,10 @@ class customer{
 		{ int i,n;
 		cout<<"Enter number of customer"<<endl;
 		      cin>>n;
+		      customer care[n];
 		   for(i=1;i<=n;i++)
 		   {
-			customer c[i];
+			
 			c[i].enter();
 			c[i].display();
 			cout<<"now we are in object "<<i<<endl;
